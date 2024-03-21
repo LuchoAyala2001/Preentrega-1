@@ -3,9 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo de IMC</title>
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
+    <header>
+        
+        <div class="container-fluid navbar">           
+            <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <a href="../index.html"> Marine life </a>               
+            </div>
+        </div>
+
+
+</header>
+<main class="container-fluid main_productos">
+   <section class="titulo_producto_carrito">
+    <div class="producto_carrito">
+        <h1>Productos</h1>
+        <div class="carro_icono">
+            <i class="fa-solid fa-cart-shopping carta"></i>
+            <div class="contador_productos ">
+                    <span id="contador">0</span>                
+            </div>
+            <div class="todo ocultar_carro">
+                
+                
+                <div class="carro_de_compras">
+
+                    <div class="compras">
+
+                    <span class="cantidad_productos">1</span>         
+                    <p class="tipo_de_producto">Aireador</p>
+                    <P class="precio_producto">$5000</P>
+
+                    </div>                  
+                    
+                    <i class="fa-solid fa-xmark cruz"></i>    
+                
+                </div>
+                <div class="total">
+                        <h3>Total:</h3>
+                        <span class="precio_total">$7000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+       
+    </div>
+   </section>
+   
+   <section class="productos">
+        <div class="carrito">
+            <figure>
+                 <img src="images/Aireador.webp" alt="Aireador">
+            </figure>
+           <div class="producto_precio">
+            <h2 class="titulo_carrito">Aireador</h2>
+            <p>$5000</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <div class="carrito">
+            <figure>
+                <img src="images/Bomba de Agua.webp" alt="Bomba de Agua">
+            </figure>
+            
+            <div class="producto_precio">
+            <h2 class="titulo_carrito">Bomba de Agua</h2>
+            <p>$13000</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                <img src="images/Calefactor.webp" alt="Calefactor">
+            </figure>
+            
+            <div class="producto_precio">
+                <h2 class="titulo_carrito">Calefactor</h2>
+                <p>$14000</p>
+                <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure> 
+                <img src="images/Casa.webp" alt="Casa">
+            </figure>
+           
+            <div class="producto_precio">
+            <h2 class="titulo_carrito">Casa</h2>
+            <p>$3000</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                <img src="images/Comida.webp" alt="Comida">
+            </figure>
+           
+            <div class="producto_precio">
+            <h2 class="titulo_carrito">Comida</h2>
+            <p>$2000</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                <img src="images/Filtro.webp" alt="Filtro">
+            </figure>
+            
+            <div class="producto_precio">
+                <h2 class="titulo_carrito">Filtro</h2>
+                <p>$7000</p>
+                <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                <img src="images/Pecera.webp" alt="Pecera">
+            </figure>
+            
+            <div class="producto_precio">
+                <h2 class="titulo_carrito">Pecera</h2>
+                <p>$50000</p>
+                <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                 <img src="images/piña.webp" alt="Piña">
+            </figure>
+           
+            <div class="producto_precio">
+                <h2 class="titulo_carrito">Piña</h2>
+                <p>$5000</p>
+                <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                <img src="images/sal marina.webp" alt="Sal marina">
+            </figure>
+            
+            <div class="producto_precio">
+                <h2 class="titulo_carrito">Sal marina</h2>
+                <p>$16000</p>
+                <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure> 
+                <img src="images/Sustrato.webp" alt="Sustrato">
+            </figure>
+           
+            <div class="producto_precio">
+            <h2 class="titulo_carrito">Sustrato</h2>
+           <p>$3500</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <figure>
+                 <img src="images/Termometro.webp" alt="Termometro">
+            </figure>
+           
+            <div class="producto_precio">
+            <h2 class="titulo_carrito">Termometro</h2>
+            <p>$9000</p>
+            <button class="Boton_carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        
+    </section>
+</main>
+<footer>
+    <section class=" container pie">
+      <div class="contacto col-4">
+          <h2>CONTACTO</h2>
+          <section class="telefono">
+              <img src="images/Logo Telefono.png" alt="Logo Telefono">
+              <P>Numero de Telefono: 1120878707</P>
+          </section>
+          <section class="mail">
+              <img src="images/Logo Mail.png" alt="">
+              <p>Mail:ayalaluis638@gmail.com</p>
+          </section>           
+      </div>
+      <div class="redes col-4">
+          <h2>Redes sociales</h2>
+          <section class="facebook">
+              <img src="images/Facebook.png" alt="Facebook">
+              <p><a href="https://www.facebook.com/profile.php?id=61556141908749&is_tour_dismissed=true" target="_blank">Facebook</a></p>
+          </section>
+          <section class="instagram">
+              <img src="images/Instagram.png" alt="Instagram">
+              <p><a href="https://www.instagram.com/_lucho_ayala/"target="_blank" >Instagram</a></p>
+          </section>
+      </div>
+      <div class="ubicacion col-4"> 
+          <div class="titulo_ubicacion">
+              <img src="images/ubicacion.png" alt="Logo Ubicacion"> 
+              <h2>Ubicacion</h2>
+          </div>   
+          <div class="padre_mapa">  
+              <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.6719626867566!2d-58.2112983885136!3d-34.7638553727842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4b0ecdf4e7%3A0x1b58f856c0a0b4ea!2sBerazategui!5e0!3m2!1ses-419!2sar!4v1706727267887!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>    
+      </div>
+    </section>  
+
+  </footer>
     <script src="index.js"></script>
 </body>
 </html>
