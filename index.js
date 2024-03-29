@@ -14,6 +14,10 @@ const listaDeProductos = document.querySelector('.productos');
 
 let todosLosProductos = []
 
+const valorTotal = document.querySelector('.precio_total')
+const contadorProductos = document.querySelector('#contador')
+
+
 listaDeProductos.addEventListener('click', addProduct => {
 
    if (addProduct.target.classList.contains('boton_carrito')){
@@ -79,8 +83,6 @@ const mostrarHtml = () => {
 
 
             agregarProductos.append(containerProduct);
-})
-
-
-
+});
+      valorTotal.innerText = `$${total}`
 };
